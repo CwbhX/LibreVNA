@@ -6,3 +6,4 @@
 *.raw
 *.vnafw
 Hardware/Renderings
+/Hardware/KiCAD/VNA-backups
