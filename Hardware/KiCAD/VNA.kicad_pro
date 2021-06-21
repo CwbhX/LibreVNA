@@ -115,80 +115,7 @@
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
-    "layer_presets": [
-      {
-        "activeLayer": -2,
-        "layers": [
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10,
-          11,
-          12,
-          13,
-          14,
-          15,
-          16,
-          17,
-          18,
-          19,
-          20,
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30,
-          59
-        ],
-        "name": "No Layers",
-        "renderLayers": [
-          125,
-          126,
-          127,
-          128,
-          129,
-          130,
-          131,
-          133,
-          134,
-          135,
-          136,
-          137,
-          138,
-          139,
-          140,
-          141,
-          142,
-          143,
-          144,
-          145,
-          146,
-          147,
-          148,
-          149,
-          150,
-          151,
-          152,
-          153,
-          154,
-          155,
-          157,
-          158,
-          159,
-          160,
-          161
-        ]
-      }
-    ]
+    "layer_presets": []
   },
   "boards": [],
   "cvpcb": {
@@ -444,9 +371,10 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
+    "annotate_start_num": 0,
     "drawing": {
       "default_bus_thickness": 12.0,
-      "default_junction_size": 36.0,
+      "default_junction_size": 40.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
@@ -473,6 +401,51 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "862431ba-ac47-47eb-9d85-33ee5c37fbec",
+      ""
+    ],
+    [
+      "cc99549c-e3d2-4b47-a34a-724f9658849b",
+      "1. LO"
+    ],
+    [
+      "371523c6-c70c-482c-a4cf-612b09120a25",
+      "CLK Generation"
+    ],
+    [
+      "d8cdf2bb-70d9-4689-a29e-8659d62cb7cd",
+      "Port 1"
+    ],
+    [
+      "3e9dc12d-1422-40a0-87d5-d776ce6aa4a8",
+      "Port 2"
+    ],
+    [
+      "c4054fd4-bc7c-41bf-8342-8778f689d97d",
+      "Ref Signal"
+    ],
+    [
+      "8d561d8e-5e3c-43b6-93de-53046bcad957",
+      "Source"
+    ],
+    [
+      "4e561475-6c8f-4b52-8867-40e29936c5df",
+      "VNA_1"
+    ],
+    [
+      "0f886d82-db19-447c-91fe-fff3fca97581",
+      "VNA_10"
+    ],
+    [
+      "bf2753fa-2101-4dfc-abb4-b4c4cb020305",
+      "VNA_4"
+    ],
+    [
+      "50db1277-8900-4356-b34e-ff088cff0824",
+      "VNA_9"
+    ]
+  ],
   "text_variables": {}
 }
